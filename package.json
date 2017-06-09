@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "gh-issues-picker",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichigotake/gh-issues-picker/issues"
+  },
+  "homepage": "https://github.com/ichigotake/gh-issues-picker#readme"
+}

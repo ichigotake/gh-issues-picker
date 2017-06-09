@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "schedule": "0 0 7-9 * * *",
+      "type": "timerTrigger",
+      "direction": "in",
+      "queueName": "outgoing-queue",
+      "connection": "AzureWebJobsDashboard"
+    }
+  ],
+  "disabled": false
+}
